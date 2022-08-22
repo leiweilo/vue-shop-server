@@ -14,7 +14,9 @@ app.use(compression())
 app.use(express.static('./dist'))
 
 app.listen(80, () => {
-    console.log('server running at http://127.0.0.1')
+    // console.log('server running at http://127.0.0.1')
+    console.log('server running at http://42.192.86.152')
+    console.log('can access by leiweilo.cloud')
 })
 
 // https.createServer(options, app).listen(443)
